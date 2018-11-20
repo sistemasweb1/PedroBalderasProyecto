@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<style>
+*{
+    margin: 0px 0px 0px 0px
+    }
+
+body {
+
+    background-image: url("pizzacool.jpg");
+    background-size: 1420px;
+}
+
+#container{
+    width:1420px;
+    height: 550px;
+}
+#c1{
+    float:left;
+    width:355px;
+    background-color: #006622;
+    height:65px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial;
+    color:white;
+
+}
+#c2{
+    float:left;
+    width:355px;
+    background-color: #734d26;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+}
+#c3{
+    float:left;
+    width:355px;
+    background-color: #000066;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+
+}
+#c4{
+    float:left;
+    width:355px;
+    background-color:#800000;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+}
+
+    #baner{
+        width: 1420px;
+        height: 500px;;
+    }
+
+#pie{
+    height:60px;
+    background-color:black;
+    clear: both;
+}
+#foto{
+    
+    width:450px;
+    height:400px;
+}
+#texto{
+    font-size: 25px;
+
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+input[type=text], select {
+    width: 900px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 900px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label{
+    font-size: 25px;
+    color: white;
+}
+
+</style>
+
+<body>
+<div id="container">
+    
+    <div id="c1"><a href="Principal.html"> Inicio</a></div>
+    <div id="c2"><a href="promociones.html"> Promociones</a> </div>
+    <div id="c3"><a href="Sucursal.html">Sucursal</a></div>
+    <div id="c4"><a href="Informacion.html">Informacion empresarial</a> </div>
+
+    <center><div>
+            <form action="gracias.html">
+
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" name="firstname" placeholder="Ingrese su nombre...">
+                <br>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="lastname" placeholder="Ingrese su apellido...">
+                <br>
+
+                <label for="Calle">Calle</label>
+                <input type="text" id="calle" name="calle" placeholder="Ingrese su calle...">
+                <br>
+              
+                <label for="Numero">Numero</label>
+                <input type="text" id="numero" name="numero" placeholder="ingrese su numero de casa...">
+                <br>
+              
+                <label for="Colonia">Colonia</label>
+                <input type="text" id="Colonia" name="Colonia" placeholder="ingrese su Colonia ...">
+                <br>
+
+                <label for="Metodo">Metodo de pago</label>
+                <select id="Met" name="Met">
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta">Tarjeta</option>
+     
+    </select>
+            
+              <input type="submit" value="Ordenar">
+            </form>
+          </div></center>
+</div>
+</body>
+<div id="pie"></div>
+</html>

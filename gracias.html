@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<style>
+*{
+    margin: 0px 0px 0px 0px
+    }
+
+body {
+    background-image: url("pizzacool.jpg");
+    background-size: 1420px;
+    background-repeat: no-repeat;
+}
+
+#container{
+    width:1420px;
+    height: 550px;
+}
+#c1{
+    float:left;
+    width:355px;
+    background-color: #006622;
+    height:65px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial;
+    color:white;
+
+}
+#c2{
+    float:left;
+    width:355px;
+    background-color: #734d26;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+}
+#c3{
+    float:left;
+    width:355px;
+    background-color: #000066;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+
+}
+#c4{
+    float:left;
+    width:355px;
+    background-color:#800000;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+}
+
+
+#pie{
+    width :1420px;
+    height: 60px;
+    background-color:black;
+    clear: both;
+}
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+input[type=text], select {
+    width: 900px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 900px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+p{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+}
+
+</style>
+
+<body>
+<div id="container">
+    
+    <div id="c1"><a href="Principal.html"> Inicio</a></div>
+    <div id="c2"><a href="promociones.html"> Promociones</a> </div>
+    <div id="c3"><a href="Sucursal.html">Sucursal</a></div>
+    <div id="c4"><a href="informacion.html">Informacion empresarial</a> </div>
+    
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>GRACIAS POR ORDENAR, SU PIZZA ESTA EN CAMINO</h1>
+
+    <p>Su pizza fue ordenada el dia</p>
+    <p id="date"></p>
+    <script>
+    var d = new Date();
+    document.getElementById("date").innerHTML = d;
+    </script>
+
+</div>
+</body>
+<div id="pie"></div>
+</html>
